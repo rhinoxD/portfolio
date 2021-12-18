@@ -5,6 +5,8 @@ import Projects from './pages/Projects';
 import Contact from './pages/Contact';
 
 import './App.css';
+import './stylesheets/home.css';
+import './stylesheets/header-footer.css';
 
 function App() {
   return (
