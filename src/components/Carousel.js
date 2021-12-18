@@ -6,7 +6,9 @@ import {
   FaNodeJs,
   FaHtml5,
   FaCss3,
+  FaPython
 } from 'react-icons/fa';
+import { SiMongodb } from 'react-icons/si';
 
 const Carousel = () => {
   return (
@@ -16,23 +18,29 @@ const Carousel = () => {
           Technologies I use
         </h1>
         <div className='gallery'>
-          <span>
+          <span style={{ '--i': 1 }}>
             <FaReact color='cyan' />
           </span>
-          <span>
+          <span style={{ '--i': 2 }}>
             <FaBootstrap color='blue' />
           </span>
-          <span>
+          <span style={{ '--i': 3 }}>
             <FaJs color='yellow' />
           </span>
-          <span>
+          <span style={{ '--i': 4 }}>
             <FaNodeJs color='green' />
           </span>
-          <span>
+          <span style={{ '--i': 5 }}>
             <FaHtml5 color='orangered' />
           </span>
-          <span>
+          <span style={{ '--i': 6 }}>
             <FaCss3 color='blue' />
+          </span>
+          <span style={{ '--i': 7 }}>
+            <SiMongodb color='green' />
+          </span>
+          <span style={{ '--i': 8 }}>
+            <FaPython color='lightblue' />
           </span>
         </div>
       </div>
