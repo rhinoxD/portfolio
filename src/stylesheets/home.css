@@ -1,0 +1,9 @@
+.introduction {
+  height: 100vh;
+  width: 100%;
+  color: #fff;
+}
+
+.introduction div h1 {
+  font-size: 100px;
+}
