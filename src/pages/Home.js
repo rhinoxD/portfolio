@@ -12,10 +12,10 @@ const Home = () => {
         <div>
           <h1>SHIVAM</h1>
           <div className='intro-content d-flex justify-content-between'>
-            <p>
-              MERN Stack <br /> Developer
+            <p className='mt-2'>
+              MERN Stack Developer
             </p>
-            <button className='primary-button'>Get Started</button>
+            <button className='primary-button font-bold w-50'>Get Started</button>
           </div>
         </div>
       </div>
