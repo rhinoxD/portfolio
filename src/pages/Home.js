@@ -7,7 +7,7 @@ const Home = () => {
     <div>
       <div
         className='introduction flex-with-center'
-        style={{ backgroundImage: `url('./introbg.svg')` }}
+        style={{ backgroundImage: `url('./introbg3.svg')` }}
       >
         <div>
           <h1>SHIVAM</h1>
