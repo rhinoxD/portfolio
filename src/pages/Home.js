@@ -12,8 +12,8 @@ const Home = () => {
         <div>
           <h1>SHIVAM</h1>
           <div className='intro-content d-flex justify-content-between'>
-            <p className='mt-2'>MERN Stack Developer</p>
-            <button className='primary-button font-bold w-50'>
+            <p>MERN Stack Developer</p>
+            <button className='primary-button font-bold'>
               Get Started
             </button>
           </div>

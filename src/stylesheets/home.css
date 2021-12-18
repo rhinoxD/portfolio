@@ -6,6 +6,7 @@
 }
 .introduction p {
   color: #fff;
+  margin-top: 0.7rem;
 }
 .introduction div h1 {
   font-weight: bold;
@@ -23,4 +24,21 @@
   border: none;
   height: 45px;
   border-radius: 20px;
+  width: 50%;
+}
+
+@media (max-width: 750px) {
+  .introduction div h1 {
+    font-weight: bold;
+    color: rgba(255, 255, 255, 0.4);
+    font-size: 75px;
+  }
+  .primary-button {
+    background-color: #fff;
+    border: none;
+    height: 45px;
+    border-radius: 20px;
+    width: auto;
+    padding: 0 10px;
+  }
 }
