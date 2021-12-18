@@ -1,0 +1,28 @@
+.carousel-parent {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #001220;
+  color: #fff;
+}
+
+.gallery {
+  height: 200px;
+  width: 200px;
+  position: relative;
+}
+.gallery span {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.gallery span svg {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
