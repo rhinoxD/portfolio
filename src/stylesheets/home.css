@@ -1,7 +1,6 @@
 .introduction {
   height: 100vh;
   width: 100%;
-  background-position: 100% 100%;
   background-size: cover;
 }
 .introduction p {
@@ -25,6 +24,15 @@
   height: 45px;
   border-radius: 20px;
   width: 50%;
+}
+
+.svgs {
+  display: flex;
+}
+
+.svgs svg {
+  height: 200px;
+  width: 100%;
 }
 
 @media (max-width: 750px) {

@@ -8,6 +8,7 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   font-family: 'Montserrat', sans-serif;
+  background-color: #ebecf0;
 }
 
 body,
@@ -38,4 +39,10 @@ code {
 .n-box1 {
   background: linear-gradient(145deg, #00101d, #001322);
   box-shadow: 5px 5px 10px #00070d, -5px -5px 10px #001d33;
+}
+
+.n-box2 {
+  border-radius: 50px;
+  background: #ebecf0;
+  box-shadow: 5px 5px 0px #c8c9cc, -5px -5px 0px #ffffff;
 }

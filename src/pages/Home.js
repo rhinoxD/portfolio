@@ -1,6 +1,7 @@
 import React from 'react';
 import Carousel from '../components/Carousel';
 import Header from '../components/Header';
+import { DiHtml5, DiCss3, DiJavascript } from 'react-icons/di';
 
 const Home = () => {
   return (
@@ -8,7 +9,7 @@ const Home = () => {
       <Header />
       <div
         className='introduction flex-with-center'
-        style={{ backgroundImage: `url('./introbg3.svg')` }}
+        style={{ backgroundImage: `url('./introbg2.svg')` }}
       >
         <div>
           <h1>SHIVAM</h1>
@@ -20,6 +21,50 @@ const Home = () => {
       </div>
 
       <Carousel />
+
+      <div>
+        <svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1440 320'>
+          <path
+            fill='#001220'
+            fill-opacity='1'
+            d='M0,256L24,229.3C48,203,96,149,144,149.3C192,149,240,203,288,240C336,277,384,299,432,261.3C480,224,528,128,576,101.3C624,75,672,117,720,154.7C768,192,816,224,864,197.3C912,171,960,85,1008,64C1056,43,1104,85,1152,133.3C1200,181,1248,235,1296,250.7C1344,267,1392,245,1416,234.7L1440,224L1440,0L1416,0C1392,0,1344,0,1296,0C1248,0,1200,0,1152,0C1104,0,1056,0,1008,0C960,0,912,0,864,0C816,0,768,0,720,0C672,0,624,0,576,0C528,0,480,0,432,0C384,0,336,0,288,0C240,0,192,0,144,0C96,0,48,0,24,0L0,0Z'
+          ></path>
+        </svg>
+      </div>
+
+      <div className='container'>
+        <div className='row justify-content-start'>
+          <div className='col-md-4'>
+            <div className='n-box2 p-5 font-bold'>
+              <h1>Yes you're right...</h1>
+              <br />
+              <p>I'm a Javascript Buff...</p>
+            </div>
+          </div>
+        </div>
+
+        <div className='row pt-5 justify-content-center'>
+          <div className='col-md-4'>
+            <div className='svgs'>
+              <DiHtml5 color='orangered' />
+              <DiCss3 color='blue' />
+              <DiJavascript color='FFC107' />
+            </div>
+          </div>
+        </div>
+
+        <div className='row pt-5 justify-content-end'>
+          <div className='col-md-4'>
+            <div className='n-box2 p-5 font-bold'>
+              <p>
+                Javascript is one of the most top-ranked programming languages
+                because of its ubiquitous use on all platforms and mass
+                adoption. Main use cases: Web Development
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
   );
 };
