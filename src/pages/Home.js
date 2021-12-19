@@ -65,6 +65,45 @@ const Home = () => {
           </div>
         </div>
       </div>
+
+      <div className='devstack container my-5 n-box2 py-5'>
+        <div className='text-center'>
+          <h3 className='font-bold text-center'>My Development Stack</h3>
+          <hr />
+          <img src='./developer.svg' alt='' height='200' width='200' />
+        </div>
+        <div className='row'>
+          <div className='col-md-4'>
+            <div className='font-bold'>
+              <h3 className='font-bold'>Front End</h3>
+              <hr />
+              <p>HTML/CSS</p>
+              <p>Javascript</p>
+              <p>React</p>
+              <p>Redux</p>
+            </div>
+          </div>
+          <div className='col-md-4'>
+            <div className='font-bold text-center'>
+              <h3 className='font-bold'>UI/Styling</h3>
+              <hr />
+              <p>Bootstrap</p>
+              <p>Tailwind CSS</p>
+              <p>Material UI</p>
+              <p>Semantic UI</p>
+            </div>
+          </div>
+          <div className='col-md-4'>
+            <div className='font-bold text-end'>
+              <h3 className='font-bold'>Backend/DB</h3>
+              <hr />
+              <p>Node JS</p>
+              <p>Express</p>
+              <p>Mongo DB</p>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
   );
 };
