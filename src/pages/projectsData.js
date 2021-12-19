@@ -13,7 +13,7 @@ const projectsData = [
       'https://addons.mozilla.org/user-media/previews/full/223/223386.png?modified=1625032655',
     description:
       'A color picker application which is a clone of Material-UI colors & Flat-UI colors made using React JS, Material Ui',
-    link: '/',
+    link: 'https://colors-app-rhino.herokuapp.com',
   },
   {
     title: 'Places-App',

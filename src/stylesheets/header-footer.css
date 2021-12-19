@@ -57,6 +57,19 @@ ul a {
   font-weight: bold;
 }
 
+input,
+textarea {
+  margin-top: 25px;
+  border: none !important;
+  background: #ebecf0 !important;
+  box-shadow: 5px 5px 0px #c8c9cc, -5px -5px 0px #ffffff !important;
+  border-radius: 20px !important;
+}
+
+.form-control {
+  box-shadow: none;
+}
+
 @media (max-width: 750px) {
   .show-header {
     display: flex;
