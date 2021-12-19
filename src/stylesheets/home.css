@@ -74,10 +74,13 @@ pre {
   }
   .whoami {
     background-size: 180% 100%;
-    height: 100vh;
+    height: 50vh;
     background-position: center;
   }
   pre {
     font-size: 16px;
+  }
+  .test {
+    margin-top: 4rem;
   }
 }

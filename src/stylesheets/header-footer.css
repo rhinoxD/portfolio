@@ -66,8 +66,21 @@ textarea {
   border-radius: 20px !important;
 }
 
+.contact {
+  padding-top: 50px;
+}
+
 .form-control {
   box-shadow: none;
+}
+.form-control:focus {
+  transform: scale(1.02);
+}
+
+.contact button {
+  background-color: rgba(0, 0, 255, 0.733);
+  color: #fff;
+  font-weight: bold;
 }
 
 @media (max-width: 750px) {
@@ -105,5 +118,9 @@ textarea {
   .menu-item {
     color: orangered;
     font-size: 45px;
+  }
+  .contact {
+    padding-top: 0;
+    padding-top: 4rem;
   }
 }
