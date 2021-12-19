@@ -3,3 +3,16 @@
   color: #fff;
   font-weight: bold;
 }
+
+.project {
+  padding: 20px;
+  border: 1px solid #000;
+  border-radius: 10px;
+  margin-top: 50px;
+}
+.project img {
+  padding: 0;
+  height: 200px;
+  width: 100%;
+  border-radius: 10px;
+}

@@ -1,6 +1,7 @@
 import React from 'react';
 import Header from '../components/Header';
 import { FaLaptopCode } from 'react-icons/fa';
+import projectsData from './projectsData';
 
 const Projects = () => {
   return (
@@ -32,6 +33,22 @@ const Projects = () => {
               className='position-absolute top-50 start-50 translate-middle'
             />
           </div>
+        </div>
+      </div>
+
+      <div className='container projects-list'>
+        <h3 className='font-bold'>Take a look at my projects</h3>
+        <hr />
+        <div className='row'>
+          {projectsData.map((project) => {
+            return (
+              <div className='col-md-4'>
+                <div className='position-relative project'>
+                  <img src={project.image} alt='' />
+                </div>
+              </div>
+            );
+          })}
         </div>
       </div>
     </div>
