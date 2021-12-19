@@ -39,7 +39,7 @@ const Projects = () => {
       <div className='container projects-list'>
         <h3 className='font-bold'>Take a look at my projects</h3>
         <hr />
-        <div className='row'>
+        <div className='row mb-5'>
           {projectsData.map((project) => {
             return (
               <div className='col-md-4'>

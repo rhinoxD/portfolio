@@ -4,11 +4,19 @@
   font-weight: bold;
 }
 
+.projects-list {
+  overflow: hidden;
+}
+
 .project {
   padding: 20px;
-  /* border: 1px solid #000; */
+  border: 1px solid rgba(0, 0, 0, 0.486);
   border-radius: 10px;
   margin-top: 50px;
+  animation: project-animation 5s linear infinite;
+}
+.project:hover {
+  animation-play-state: paused;
 }
 .project img {
   height: 200px;
@@ -38,4 +46,22 @@
   border-radius: 10px;
   opacity: 0;
   transition: all 0.5s;
+}
+
+@keyframes project-animation {
+  0% {
+    transform: rotate(-5deg);
+  }
+  25% {
+    transform: rotate(0deg);
+  }
+  50% {
+    transform: rotate(5deg);
+  }
+  75% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(-5deg);
+  }
 }
