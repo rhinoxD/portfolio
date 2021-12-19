@@ -45,6 +45,12 @@ const Projects = () => {
               <div className='col-md-4'>
                 <div className='position-relative project'>
                   <img src={project.image} alt='' />
+                  <div className='project-content'>
+                    <h3>{project.title}</h3>
+                    <hr />
+                    <p>{project.description}</p>
+                    <button className='primary-button'>DEMO</button>
+                  </div>
                 </div>
               </div>
             );
