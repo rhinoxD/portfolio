@@ -17,12 +17,14 @@ const Footer = () => {
             <div className='div'>
               <p>Designed and Developed By</p>
               <hr />
-              <div className='d-flex justify-content-around'>
+              <div className='d-flex justify-content-around px-2'>
                 <FaMailBulk className='footer-icons' />
                 <FaLinkedin className='footer-icons' />
                 <FaGithub className='footer-icons' />
               </div>
               <hr />
+              <br />
+              <p>Shivam Kumar</p>
             </div>
           </div>
         </div>

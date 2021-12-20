@@ -70,7 +70,7 @@ textarea {
   padding-top: 50px;
 }
 .contact button {
-  background-color: rgba(0, 0, 255, 0.733);
+  background-color: #001220;
   color: #fff;
   font-weight: bold;
 }
@@ -135,6 +135,5 @@ textarea {
   }
   .contact {
     padding-top: 0;
-    padding-top: 4rem;
   }
 }
