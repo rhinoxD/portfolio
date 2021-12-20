@@ -3,8 +3,8 @@
   color: #fff;
   font-weight: bold;
 }
-.primary-button a {
-  color: #fff;
+.btn a {
+  color: #fff !important;
 }
 
 .projects-list {

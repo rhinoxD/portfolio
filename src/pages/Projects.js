@@ -16,7 +16,7 @@ const Projects = () => {
                 Good ideas are not adopted automatically. They must be driven
                 into practice with courageous patience
               </p>
-              <button className='primary-button'>
+              <button className='primary-button btn'>
                 <a href='#projects-list'>Get Started</a>
               </button>
             </div>
