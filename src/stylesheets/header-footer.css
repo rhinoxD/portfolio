@@ -69,6 +69,11 @@ textarea {
 .contact {
   padding-top: 50px;
 }
+.contact button {
+  background-color: rgba(0, 0, 255, 0.733);
+  color: #fff;
+  font-weight: bold;
+}
 
 .form-control {
   box-shadow: none;
@@ -77,10 +82,19 @@ textarea {
   transform: scale(1.02);
 }
 
-.contact button {
-  background-color: rgba(0, 0, 255, 0.733);
+.footer-content {
+  background-color: #001220;
+  text-align: center;
   color: #fff;
-  font-weight: bold;
+}
+
+.footer svg {
+  color: #fff;
+}
+.footer-icons:hover {
+  color: cyan;
+  transform: scale(1.5);
+  cursor: pointer;
 }
 
 @media (max-width: 750px) {
