@@ -9,7 +9,7 @@ const Projects = () => {
       <Header />
       <div className='container projects-intro'>
         <div className='row flex-with-center mt-5'>
-          <div className='col-md-6 n-box2 px-3 py-5'>
+          <div data-aos='fade-down' className='col-md-6 n-box2 px-3 py-5'>
             <div>
               <h1 className='font-bold'>Projects</h1>
               <p className='font-bold'>

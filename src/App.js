@@ -11,6 +11,12 @@ import './stylesheets/header-footer.css';
 import './stylesheets/carousel.css';
 import './stylesheets/projects.css';
 
+import AOS from 'aos';
+import 'aos/dist/aos.css'; // You can also use <link> for styles
+AOS.init({
+  duration: 650,
+});
+
 function App() {
   return (
     <div className='App'>

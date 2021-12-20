@@ -12,7 +12,7 @@ const Home = () => {
         style={{ backgroundImage: `url('./introbg2.svg')` }}
       >
         <div>
-          <h1>SHIVAM</h1>
+          <h1 data-aos='fade-up'>SHIVAM</h1>
           <div className='intro-content d-flex justify-content-between'>
             <p>MERN Stack Developer</p>
             <button className='primary-button font-bold'>Get Started</button>
@@ -35,7 +35,7 @@ const Home = () => {
       <div className='container'>
         <div className='row justify-content-start'>
           <div className='col-md-4'>
-            <div className='n-box2 p-5 font-bold'>
+            <div data-aos='fade-right' className='n-box2 p-5 font-bold'>
               <h1>Yes you're right...</h1>
               <br />
               <p>I'm a Javascript Buff...</p>
@@ -45,7 +45,7 @@ const Home = () => {
 
         <div className='row pt-5 justify-content-center'>
           <div className='col-md-4'>
-            <div className='svgs'>
+            <div data-aos='fade-up' className='svgs'>
               <DiHtml5 color='orangered' />
               <DiCss3 color='blue' />
               <DiJavascript color='FFC107' />
@@ -55,7 +55,7 @@ const Home = () => {
 
         <div className='row pt-5 justify-content-end'>
           <div className='col-md-4'>
-            <div className='n-box2 p-5 font-bold'>
+            <div data-aos='fade-left' className='n-box2 p-5 font-bold'>
               <p>
                 Javascript is one of the most top-ranked programming languages
                 because of its ubiquitous use on all platforms and mass
