@@ -6,14 +6,14 @@ import {
   FaNodeJs,
   FaHtml5,
   FaCss3,
-  FaPython
+  FaPython,
 } from 'react-icons/fa';
 import { SiMongodb } from 'react-icons/si';
 
 const Carousel = () => {
   return (
     <div>
-      <div className='carousel-parent position-relative'>
+      <div className='carousel-parent position-relative' id='carousel'>
         <h1 className='position-absolute top-0 start-0 end-0 text-center mt-5'>
           Technologies I use
         </h1>

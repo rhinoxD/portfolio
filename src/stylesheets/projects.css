@@ -1,7 +1,10 @@
 .projects-intro .primary-button {
-  background-color: blue;
+  background-color: #001220;
   color: #fff;
   font-weight: bold;
+}
+.primary-button a {
+  color: #fff;
 }
 
 .projects-list {
@@ -46,6 +49,15 @@
   border-radius: 10px;
   opacity: 0;
   transition: all 0.5s;
+}
+
+@media (max-width: 750px) {
+  .test {
+    margin-top: 3rem;
+  }
+  .test2 {
+    margin: 3rem 0;
+  }
 }
 
 @keyframes project-animation {

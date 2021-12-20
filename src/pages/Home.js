@@ -15,7 +15,9 @@ const Home = () => {
           <h1 data-aos='fade-up'>SHIVAM</h1>
           <div className='intro-content d-flex justify-content-between'>
             <p>MERN Stack Developer</p>
-            <button className='primary-button font-bold'>Get Started</button>
+            <button className='primary-button font-bold'>
+              <a href='#carousel'>Get Started</a>
+            </button>
           </div>
         </div>
       </div>

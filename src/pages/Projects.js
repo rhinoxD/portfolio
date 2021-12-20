@@ -9,17 +9,19 @@ const Projects = () => {
       <Header />
       <div className='container projects-intro'>
         <div className='row flex-with-center mt-5'>
-          <div data-aos='fade-down' className='col-md-6 n-box2 px-3 py-5'>
+          <div data-aos='fade-down' className='col-md-6 n-box2 px-3 py-5 test'>
             <div>
               <h1 className='font-bold'>Projects</h1>
               <p className='font-bold'>
                 Good ideas are not adopted automatically. They must be driven
                 into practice with courageous patience
               </p>
-              <button className='primary-button'>Get Started</button>
+              <button className='primary-button'>
+                <a href='#projects-list'>Get Started</a>
+              </button>
             </div>
           </div>
-          <div className='col-md-6 position-relative'>
+          <div className='col-md-6 position-relative test2'>
             <svg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'>
               <path
                 fill='#0F62FE'
@@ -36,7 +38,7 @@ const Projects = () => {
         </div>
       </div>
 
-      <div className='container projects-list'>
+      <div id='projects-list' className='container projects-list'>
         <h3 className='font-bold'>Take a look at my projects</h3>
         <hr />
         <div className='row mb-5'>

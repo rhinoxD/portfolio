@@ -25,6 +25,10 @@
   border-radius: 20px;
   width: 50%;
 }
+.primary-button a {
+  text-decoration: none;
+  color: #001220;
+}
 
 .svgs {
   display: flex;
