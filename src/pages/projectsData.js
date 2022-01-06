@@ -18,16 +18,24 @@ const projectsData = [
   {
     title: 'Places-App',
     image:
-      'https://lh3.googleusercontent.com/proxy/hcA9RPvE2Ba3nV2XEo_eiKtn2PHug50t6QgtBprJFyshmIcW1GcwduEzwhpD4WGj0zBX5HRdngNVh_HveWjMibZvYbocpIVZLE5DX2sTX6zneFdAmf4PKFTo',
+      'https://media.cntraveller.com/photos/611bece34e09f53b43732f58/16:9/w_3200,h_1800,c_limit/beautiful.jpg',
     description:
       "Add your places, view them on map, view other people's places and much more!",
-    link: 'https://mern-rhino.herokuapp.com/auth',
+    link: 'https://mern-rhino.herokuapp.com',
   },
   {
     title: 'DevConnector',
-    image: 'https://www.nicolauria.com/images/dev-connector-logo.jpg',
+    image:
+      'https://socialengineindia.com/blog/wp-content/uploads/2021/10/What-are-the-Core-features-of-a-Successful-Online-Community-Platform.png',
     description: 'Social network for developers',
-    link: 'https://devconnector-rhino.herokuapp.com',
+    link: 'https://devconnector2-rhino.herokuapp.com',
+  },
+  {
+    title: 'ShoppingCart',
+    image:
+      'https://media.wired.com/photos/5c9040ee4950d24718d6da99/191:100/w_2400,h_1256,c_limit/shoppingcart-1066110386.jpg',
+    description: 'Social network for developers',
+    link: 'https://shoppingcart-rhino.herokuapp.com',
   },
 ];
 

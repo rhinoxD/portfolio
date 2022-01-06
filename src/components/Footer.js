@@ -1,7 +1,7 @@
 import React from 'react';
 import { FaGithub, FaLinkedin, FaMailBulk } from 'react-icons/fa';
 
-const Footer = () => {
+const Footer = ({ history }) => {
   return (
     <div>
       <div className='footer'>
@@ -19,8 +19,12 @@ const Footer = () => {
               <hr />
               <div className='d-flex justify-content-around px-2'>
                 <FaMailBulk className='footer-icons' />
-                <FaLinkedin className='footer-icons' />
-                <FaGithub className='footer-icons' />
+                <a href='https://www.linkedin.com/in/the-shivamkumar/'>
+                  <FaLinkedin className='footer-icons' />
+                </a>
+                <a href='https://github.com/rhinoxD'>
+                  <FaGithub className='footer-icons' />
+                </a>
               </div>
               <hr />
               <br />

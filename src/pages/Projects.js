@@ -51,7 +51,9 @@ const Projects = () => {
                     <h3>{project.title}</h3>
                     <hr />
                     <p>{project.description}</p>
-                    <button className='primary-button'>DEMO</button>
+                    <a className='demo' href={project.link}>
+                      <button className='demo-button'>DEMO</button>
+                    </a>
                   </div>
                 </div>
               </div>
