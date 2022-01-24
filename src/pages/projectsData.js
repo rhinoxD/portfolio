@@ -4,7 +4,7 @@ const projectsData = [
     image:
       'https://us.123rf.com/450wm/nataliia2910/nataliia29101809/nataliia2910180900062/110071175-vector-illustration-of-camping-in-night-time-with-beautiful-view-on-mountains-family-camping-evening.jpg?ver=6',
     description:
-      'YelpCamp is a website where users can create and review campgrounds',
+      'GoCamp is a website where users can create and review campgrounds',
     link: 'https://gocamp-rhino.herokuapp.com',
   },
   {
@@ -16,7 +16,7 @@ const projectsData = [
     link: 'https://colors-app-rhino.herokuapp.com',
   },
   {
-    title: 'Instagram',
+    title: 'Insta-Clone',
     image:
       'https://i0.wp.com/apkmody.io/wp-content/uploads/2018/07/Instagram-Cover-Photo.jpg?resize=720%2C360&ssl=1',
     description: 'Instagram Clone',
