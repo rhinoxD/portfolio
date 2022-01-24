@@ -29,6 +29,9 @@
   text-decoration: none;
   color: #001220 !important;
 }
+.submit {
+  cursor: pointer;
+}
 
 .svgs {
   display: flex;
