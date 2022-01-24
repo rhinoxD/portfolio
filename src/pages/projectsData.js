@@ -1,11 +1,11 @@
 const projectsData = [
   {
-    title: 'YelpCamp',
+    title: 'GoCamp',
     image:
       'https://us.123rf.com/450wm/nataliia2910/nataliia29101809/nataliia2910180900062/110071175-vector-illustration-of-camping-in-night-time-with-beautiful-view-on-mountains-family-camping-evening.jpg?ver=6',
     description:
       'YelpCamp is a website where users can create and review campgrounds',
-    link: 'https://yelpcamp-rhino.herokuapp.com',
+    link: 'https://gocamp-rhino.herokuapp.com',
   },
   {
     title: 'Colors-App',
@@ -16,12 +16,11 @@ const projectsData = [
     link: 'https://colors-app-rhino.herokuapp.com',
   },
   {
-    title: 'Places-App',
+    title: 'Instagram',
     image:
-      'https://media.cntraveller.com/photos/611bece34e09f53b43732f58/16:9/w_3200,h_1800,c_limit/beautiful.jpg',
-    description:
-      "Add your places, view them on map, view other people's places and much more!",
-    link: 'https://mern-rhino.herokuapp.com',
+      'https://i0.wp.com/apkmody.io/wp-content/uploads/2018/07/Instagram-Cover-Photo.jpg?resize=720%2C360&ssl=1',
+    description: 'Instagram Clone',
+    link: 'https://insta-rhino.herokuapp.com/signin',
   },
   {
     title: 'DevConnector',
@@ -34,8 +33,15 @@ const projectsData = [
     title: 'ShoppingCart',
     image:
       'https://media.wired.com/photos/5c9040ee4950d24718d6da99/191:100/w_2400,h_1256,c_limit/shoppingcart-1066110386.jpg',
-    description: 'Social network for developers',
+    description: "Whatever you've got in mind, we've got inside.",
     link: 'https://shoppingcart-rhino.herokuapp.com',
+  },
+  {
+    title: 'Rexx-Clothing',
+    image:
+      'https://cdn.pixabay.com/photo/2015/08/25/11/50/shop-906722_960_720.jpg',
+    description: 'A store that sells not just outfits but a trend.',
+    link: 'https://rexx-rhino.herokuapp.com',
   },
 ];
 
