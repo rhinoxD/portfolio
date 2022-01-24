@@ -135,5 +135,7 @@ textarea {
   }
   .contact {
     padding-top: 0;
+    margin-top: 6.95rem !important;
+    border: 1px solid red;
   }
 }
