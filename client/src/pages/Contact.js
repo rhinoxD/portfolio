@@ -20,6 +20,8 @@ const Contact = () => {
         alert('Message failed to send.');
       }
     });
+    alert('Message Sent.');
+    resetForm();
   };
   const resetForm = () => {
     setName('');
