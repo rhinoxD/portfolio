@@ -20,8 +20,6 @@ const Contact = () => {
         alert('Message failed to send.');
       }
     });
-    alert('Message Sent.');
-    resetForm();
   };
   const resetForm = () => {
     setName('');
@@ -35,7 +33,7 @@ const Contact = () => {
         <div className='row pt-5'>
           <div className='col-md-12'>
             <form
-              onsubmit={handleSubmit}
+              onSubmit={handleSubmit}
               className='contact-form m-3 p-5 n-box2'
               method='post'
             >
@@ -58,7 +56,6 @@ const Contact = () => {
               <textarea
                 className='form-control'
                 rows={3}
-                defaultValue={''}
                 value={message}
                 onChange={(e) => setMessage(e.target.value)}
               />
