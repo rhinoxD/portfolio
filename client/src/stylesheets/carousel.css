@@ -58,3 +58,9 @@
     transform: perspective(1000px) rotateY(360deg);
   }
 }
+
+@media (max-width: 750px) {
+  .gallery span{
+    width: 75%;
+  }
+}
