@@ -18,7 +18,9 @@ const Footer = ({ history }) => {
               <p>Designed and Developed By</p>
               <hr />
               <div className='d-flex justify-content-around px-2'>
-                <FaMailBulk className='footer-icons' />
+                <a href='mailto:shivamsk0721@gmail.com'>
+                  <FaMailBulk className='footer-icons' />
+                </a>
                 <a href='https://www.linkedin.com/in/the-shivamkumar/'>
                   <FaLinkedin className='footer-icons' />
                 </a>
