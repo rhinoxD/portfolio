@@ -10,7 +10,7 @@ const Contact = () => {
     e.preventDefault();
     axios({
       method: 'post',
-      url: 'contact',
+      url: 'api/contact',
       data: { name, email, message },
     }).then((response) => {
       if (response.data.status === 'success') {
@@ -20,8 +20,6 @@ const Contact = () => {
         alert('Message failed to send.');
       }
     });
-    alert('Message Sent.');
-    resetForm();
   };
   const resetForm = () => {
     setName('');
