@@ -1,3 +1,4 @@
+import { useEffect } from 'react';
 import { BrowserRouter as Router, Route } from 'react-router-dom';
 
 import Home from './pages/Home';
@@ -18,6 +19,9 @@ AOS.init({
 });
 
 function App() {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
   return (
     <div className='App'>
       <Router>
